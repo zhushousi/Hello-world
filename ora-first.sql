@@ -1,2 +1,12 @@
-select * from tp_pipeline t where t.code='西单#005-西单#006';--52
-select * from tp_pipeline_gis t where t.id='300083297';
+DECLARE
+  my_name EXCEPTION
+  PRAGMA EXCEPTION_INIT(my_name, -54)
+BEGIN
+.
+.
+.
+EXCEPTION
+  WHEN my_name THEN
+    .
+    .
+END;
